@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: auto;
+
+}
+body{
+    background-color:black
+} 
+.head-box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(19, 130, 137), rgb(20, 220, 214), rgb(70, 184, 157));
+    width: auto;
+    height: auto;
+    border-radius:  0rem 0rem 2rem 2rem;
+}
+.head-box b{
+    text-align: center;
+    font-size: 3rem;
+    padding: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 1200;
+}
+.info{
+ text-align: center;
+ padding: 2rem;
+}
+.info span{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.info p{
+    color: rgb(81, 168, 139);
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.info h2{
+    font-size: 2.6rem;
+    padding-top: 3rem;
+    font-weight: 800;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.info h3{
+    color: rgb(81, 168, 139);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.boxes{
+    padding: 3rem;
+}
+.f-2-box{
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 20rem;
+    margin: 0.5rem;
+    
+
+}
+
+.f-2-box .box1{
+    padding: 1rem;
+    background-color: white;
+    height:6rem;
+    width: 23rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(47, 53, 82);
+    border-radius: 1rem;
+    text-align: center;
+   
+}
+.s-2-box{
+    display: flex;
+    justify-content:right;
+    gap: 2rem;
+    padding-right: 20rem;
+    margin: 0.5rem;
+
+}
+.s-2-box .box1{
+    padding: 1rem;
+    background-color: white;
+    height:6rem;
+    width: 23rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(47, 53, 82);
+    border-radius: 1rem;
+
+   
+}
+.triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.triangle .tri-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.tri-img img{
+    height: 35rem;
+}
+.prob b{
+    font-size: 2.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.prob ul{
+    padding-top: 1rem;
+    list-style: none;
+}
+.prob li{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.join-now{
+    text-align: center;
+    padding: 4rem;
+}
+
+.seat{
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.register{
+    padding: 1rem;
+}
+.register span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.register h3{
+    color: rgb(79, 214, 198);
+}
+.dig-btn{
+    
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    height: 10rem;
+    width: 53vw;
+    background-image: linear-gradient(rgb(19, 130, 137), rgb(20, 220, 214), rgb(70, 184, 157));
+    border-radius: 0.8rem;
+    
+}
+.btn1 b{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    cursor: pointer;
+}
+.btn1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.btn1 h5{
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.five-boxes span{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enterpreneur-box{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.eo-box{
+    height: 8rem;
+    width: 33vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    align-items: center;
+
+    
+   
+    
+}
+.eo-box span{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.market-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+.mk-box{
+    height: 8rem;
+    width: 33vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 3rem;
+}
+
+.mk-box span{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.able-box{
+    height: 10vh;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.able-box span{
+    color: black;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE WEBSITE FOR 769PX TO 1023PX*/
+@media screen and (min-width:769px) and (max-width:1200px) {
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .info span{
+           font-size: 2rem;
+       }
+       .info p{
+           font-size: 2rem;
+       }
+       .info h2{
+           font-size: 2rem;
+       }
+       .info h3{
+           font-size: 2rem;
+       }
+       .boxes{
+        padding: 3rem;
+    }
+    .f-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.8rem;
+    }
+    .s-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .s-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.8rem;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 30rem;
+    }
+    .prob b{
+        font-size: 2rem;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 2rem;
+    }
+    .register span{
+        font-size: 1rem;
+    }
+   .btn1{
+       height: auto;
+       width: auto;
+    }
+   .btn1 b{
+       font-size: 2rem;
+   }
+   .btn1 span{
+       font-size: 1rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 400;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 2rem;
+}
+}
+
+
+/*RESPONSIVE WEBSITE FOR 498PX TO 769PX*/
+@media  screen and (min-width:498px) and (max-width:769px){
+
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  0rem 1rem;
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .info span{
+           font-size: 1.2rem;
+       }
+       .info p{
+           font-size: 1.5rem;
+       }
+       .info h2{
+           font-size: 1.5rem;
+       }
+       .info h3{
+           font-size: 1.5rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+    }
+    .boxes{
+        padding: 1rem;
+    }
+    .f-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+    
+    }
+    .s-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .s-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 20rem;
+        padding: 0rem;
+    }
+    .prob b{
+        font-size: 1.5rem;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 1rem;
+    }
+    .register span{
+        font-size: 0.6rem;
+    }
+   .btn1{
+       height: auto;
+       width: auto;
+    }
+   .btn1 b{
+       font-size: 1rem;
+   }
+   .btn1 span{
+       font-size: 1rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 400;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 1rem;
+}
+}
+/*RESPONSIVE WEBSITE FOR 349PX TO 499PX*/
+@media  screen and (min-width:349px) and (max-width:499px){
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  0rem 1rem;
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .info span{
+           font-size: 1rem;
+       }
+       .info p{
+           font-size: 1.2rem;
+       }
+       .info h2{
+           font-size: 1rem;
+       }
+       .info h3{
+           font-size: 1.2rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+    }
+    .f-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3.5rem;
+        font-size: 0.8rem;
+    }
+    .s-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .s-2-box .box1{
+        align-items: center;
+        height:3.5rem;
+        text-align: center;
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 20rem;
+        padding: 0rem;
+    }
+    .prob b{
+        font-size: 1.2rem;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 1rem;
+    }
+    .register span{
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+   .btn1{
+       height: auto;
+       width: 20rem;
+    }
+   .btn1 b{
+       font-size: 1rem;
+
+   }
+   .btn1 span{
+       font-size: 0.5rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 300;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 1rem;
+}
+}
+
+/*RESPONSIVE WEBSITE FOR 200PX TO 349PX*/
+@media  screen and (min-width:200px) and (max-width:349px){
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  0rem 1rem;
+    }
+    .head-box b{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .info span{
+           font-size: 0.8rem;
+       }
+       .info p{
+           font-size: 1rem;
+       }
+       .info h2{
+           font-size: 0.8rem;
+       }
+       .info h3{
+           font-size: 1rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+    }
+    .f-2-box{
+      
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        
+    
+    }
+    
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3.5rem;
+        font-size: 0.8rem;
+        width: auto;
+    }
+    .s-2-box{
+       
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        
+    
+    }
+    .s-2-box .box1{
+        align-items: center;
+        height:3.5rem;
+        text-align: center;
+        gap: 1rem;
+        font-size: 0.8rem;
+        width: auto;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 10rem;
+        padding: 0rem;
+    }
+    .prob b{
+        font-size: 1rem;
+    }
+    .prob li{
+        font-size: 0.6rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 0.5rem;
+    }
+    .register span{
+        font-size: 0.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+   .btn1{
+       height: auto;
+       width: 12rem;
+    }
+   .btn1 b{
+       font-size: 0.8rem;
+
+   }
+   .btn1 span{
+       font-size: 0.4rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 300;
+       margin-left: 0.2rem;
+       margin-right: 0.2rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+}
